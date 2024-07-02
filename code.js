@@ -6,4 +6,11 @@ aluno1 = parseInt(aluno1)
 aluno2 = parseInt(aluno2)
 aluno3 = parseInt(aluno3)
 
+if (((aluno1 + aluno2 + aluno3) / 3) >= 6){
+    console.log("Aprovado")
+}
+else{
+    console.log("Reprovado")
+}
+
 
